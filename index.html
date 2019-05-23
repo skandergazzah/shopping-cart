@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="shopstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="java-shop.js"></script>
+</head>
+<body>
+    <div class="bigspace">
+        <div class="little-space">
+            <p>shopping bag total: <span id="valeur"> 0</span> $</p>
+            <table class="table">
+                    <tbody>
+                      <tr id="bloc0">
+                        <th scope="row"><button onclick="removeElement(0)">X</button></th>
+                        <td> <button id="coeur0" onclick="showlove(0)" >❤</button></td>
+                        <td><img class="irc_rii" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPHxU9mLmtf4qQJAkyyba5qIob418qIhRI9rnUI-3ZnQXBg6k" alt="Image associée" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" style="width: 160px; height: 130px;" data-iml="1558344856620"></td>
+                        <td>$<span id="flouss0" >0</span></td>
+                        <td><button onclick="incrementer(0)">+</button></td>
+                        <td id="unique0">0</td>
+                        <td><button onclick="soustract(0)">_</button></td>
+                        
+
+                      </tr>
+                      <tr id="bloc1">
+                        <th scope="row"><button onclick="removeElement(1)">X</button></th>
+                        <td> <button id="coeur1" onclick="showlove(1)">❤</button></td>
+                        <td><img src="https://c.static-nike.com/a/images/t_PDP_144_v1/f_auto/gl8kyzxwuwepccm1firi/coupe-vent-tisse-sportswear-swoosh-W9Q4R5.jpg" alt="Blanc/Noir/Blanc/Blanc" class="bg-medium-grey"></td>
+                        <td>$<span id="flouss1">0</span></td>
+                        <td><button onclick="incrementer(1)">+</button></td>
+                        <td id="unique1">0</td>
+                        <td><button onclick="soustract(1)">_</button></td>
+                        
+                      </tr>
+                      <tr id="bloc2">
+                        <th scope="row"><button onclick="removeElement(2)">X</button></th>
+                        <td> <button id="coeur2" onclick="showlove(2)" >❤</button></td>
+                        <td><img src="https://c.static-nike.com/a/images/t_PDP_144_v1/f_auto/jht4izhq0eqckw40zdok/short-hurley-phantom-46-cm-pour-xwNH0r.jpg" alt="Kaki" class="bg-medium-grey"></td>
+                        <td>$<span id="flouss2">0</span></td>
+                        <td><button onclick="incrementer(2)">+</button></td>
+                        <td id="unique2">0</td>
+                        <td><button onclick="soustract(2)">_</button></td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
